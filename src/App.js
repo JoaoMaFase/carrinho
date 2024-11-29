@@ -163,7 +163,6 @@ function App() {
             Basicamente, o Arduino usa os dados do sensor para controlar os motores e permitir que o robô se mova de forma inteligente, evitando colisões com objetos à frente.</p>
           </div>
           <div className='right'>
-            <img src={`${process.env.PUBLIC_URL}/assets/images/circuito.png`} alt="Logo" />
           </div>
         </div>
       </section>
