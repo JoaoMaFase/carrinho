@@ -6,7 +6,7 @@ function App() {
     <div className="main">
       <section className='header'>
         <div className='logo-sec'>
-          <img src={`./assets/images/LOGOSEP.png`} alt="Logo" />
+          <img src={`${process.env.PUBLIC_URL}/assets/images/LOGOSEP.png`} alt="Logo" />
           <h1>Empresa SEP</h1>
           </div>
         <div className='button'>
@@ -17,7 +17,7 @@ function App() {
           <a href='#dev'>Desenvolvimento</a>
         </div>
         <div className='logo'>
-          <a><img src={`./assets/images/logosenac.png`} alt="Logo" /></a>
+          <a><img src={`${process.env.PUBLIC_URL}/assets/images/logosenac.png`} alt="Logo" /></a>
         </div>
         
       </section>
@@ -76,11 +76,11 @@ function App() {
         <div className='intro-titulo'>
           <h1>Fluxograma do Programa</h1>
         </div>
-        <img src={`./assets/images/fluxo1.png`} alt="Logo" />
+        <img src={`${process.env.PUBLIC_URL}/assets/images/fluxo1.png`} alt="Logo" />
         
       </section>
       <section id='fluxo2' className='secao-introd'>
-        <img src={`./assets/images/fluxo2.png`} alt="Logo" />
+        <img src={`${process.env.PUBLIC_URL}/assets/images/fluxo2.png`} alt="Logo" />
         <div className='intro-titulo'>
           <h1 >Fluxograma do Projeto</h1>
         </div>
@@ -101,7 +101,7 @@ function App() {
             </p>
           </div>
           <div className='right'>
-          <img src={`./assets/images/designbase.png`} alt="Logo" />
+          <img src={`${process.env.PUBLIC_URL}/assets/images/designbase.png`} alt="Logo" />
           </div>
           
         </div>
@@ -119,7 +119,7 @@ function App() {
             </p>
           </div>
           <div className='right'>
-            <img src={`./assets/images/material.png`} alt="Logo" />
+            <img src={`${process.env.PUBLIC_URL}/assets/images/material.png`} alt="Logo" />
           </div>
         </div>
       </section>
@@ -145,7 +145,7 @@ function App() {
             <p>O motor shield driver de através do motor duplo tem a capacidade de acionar um par de motores DC de forma muito simples, contado com 4 pinos digitais do Arduino que se estendem aos 8 pinos de controle dos dois chips L293D.</p>
           </div>
           <div className='right'>
-            <img src={`./assets/images/motor.png`} alt="Logo" />
+            <img src={`${process.env.PUBLIC_URL}/assets/images/motor.png`} alt="Logo" />
           </div>
         </div>
       </section>
@@ -163,7 +163,7 @@ function App() {
             Basicamente, o Arduino usa os dados do sensor para controlar os motores e permitir que o robô se mova de forma inteligente, evitando colisões com objetos à frente.</p>
           </div>
           <div className='right'>
-            <img src={`./assets/images/circuito.png`} alt="Logo" />
+            <img src={`${process.env.PUBLIC_URL}/assets/images/circuito.png`} alt="Logo" />
           </div>
         </div>
       </section>
@@ -183,7 +183,7 @@ function App() {
           </div>
           <div className='right'>
             <video muted autoPlay loop height="600">
-              <source src="./assets/videos/carrinho.mp4" type="video/mp4" />
+              <source src={`${process.env.PUBLIC_URL}/assets/videos/carrinho.mp4`} type="video/mp4" />
               Seu navegador não suporta a reprodução de vídeo.
             </video>
           </div>
